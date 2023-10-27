@@ -1,0 +1,16 @@
+#!/bin/bash
+
+rm -f log
+for ((M=128; M<=128; M=M*2))
+do
+	for ((K=16; K<=16; K=K*2))
+	do
+
+		./gemm 8 >> log
+		./gemm 16 >> log
+		./gemm 32 >> log
+		./gemm 64 >> log
+		./gemm 128 >> log
+		./gemm 256 >> log
+	done
+done
