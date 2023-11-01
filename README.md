@@ -19,7 +19,7 @@ The following is the directory tree of the code, which contains CUDA and ROCm co
   * **batching:**  This sub-directory contains source code of Li ("A coordinated tiling and batching framework for efficient gemm on gpus") in this paper.  
   * **framework:**  This sub-directory contains source coe of a load-balanced parallel framework for batch GEMM in CUDA.
  
-**magma:** download [https://icl.utk.edu/magma/](https://icl.utk.edu/magma/). Download the relevant version of the code and adjust the configuration for the different GPU platforms. The installation tutorial is available on the official website.
+**magma:** download [https://icl.utk.edu/magma/](https://icl.utk.edu/magma/). Download the relevant version of the code (magma 2.6.0 or newer)and adjust the configuration for the different GPU platforms. The installation tutorial is available on the official website.
 # Requirements
 * ROCm5.4 and CUDA 11.7 or newer
 * Ubuntu 20.04
